@@ -34,5 +34,3 @@ add_executable(llp_3_server server/server.c client/common.c
         server/user_interface/interactive_mode.c
        )
 
-add_executable(llp main.c server/commands/commands/commands.c server/crud/api/api.c server/crud/api/api.c server/crud/basic/basic.c server/crud/basic/basic.c server/utils/file_utils/file_utils.c server/generator/generator.c server/utils/string_utils/string_utils.c server/utils/structs_utils/structs_utils.c client/common/common.c client/common/common.h server/server.c server/init.c)
-
