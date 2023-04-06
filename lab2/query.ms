@@ -1,0 +1,1 @@
+db.insert({parent: 1}, {name: "ri", age: 1})
